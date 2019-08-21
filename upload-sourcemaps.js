@@ -66,6 +66,8 @@ module.exports = async options => {
         version,
         'upload-sourcemaps',
         '.',
+        '--dist',
+        iosManifest.releaseChannel,
         '--ext',
         'bundle',
         '--ext',
